@@ -5,7 +5,7 @@ import  PropTypes from 'prop-types'
 import {
     Button, Form, Label, Input
 } from 'reactstrap';
-import {addCategory} from "../actions/categoryActions";
+import {addCategory} from "../../actions/categoryActions";
 
 
 class  CategoryForm extends  React.Component{
@@ -70,6 +70,7 @@ class  CategoryForm extends  React.Component{
                         placeholder={"enter description"}
                     />
 
+                    <br/>
 
                     <Button onClick={this.sendData} color="primary"  block>Add Category</Button>
                 </Form>
