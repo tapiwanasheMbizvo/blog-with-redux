@@ -7,7 +7,6 @@ export  const  fetchPosts=()=>dispatch=>{
         .then(res=> res.json())
         .then(posts =>dispatch({
 
-
             type: FETCH_POSTS,
             payload:posts
         }));

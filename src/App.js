@@ -1,26 +1,19 @@
 import React from 'react';
 import {Provider} from 'react-redux';
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+
 import Landing from "./views";
 import Categories from "./views/categories";
 import Posts from "./views/posts";
 import Topics from "./views/topics";
-
-
-
-
 import store from "./Store";
-
-
-import {Link} from "react-router-dom";
 import BlogNav from "./components/navbar";
 
 
 class App extends  React.Component{
 render(){
     return (
-
 
         <Provider store = {store}>
             <BrowserRouter>

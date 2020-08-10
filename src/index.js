@@ -7,51 +7,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 
 
-
-
-/*
-ReactDOM.render(
-
-    <Provider store = {store}>
-    <BrowserRouter>
-        <BlogNav/>
-
-        <Switch>
-                <Route
-                    path={"/"}
-                    exact
-                    render={props => <Landing{...props}/>}
-                />
-                <Route
-
-                    path={"/posts"}
-                    exact
-                    render={props => <Posts {...props}/>}
-
-                />
-
-                <Route
-                    path={"/topics"}
-                    exact
-                    render={props => <Topics {...props}/>}
-                />
-
-                <Route
-                    path={"/categories"}
-                    exact
-                    render={props => <Categories {...props}/>}
-                />
-
-        </Switch>
-
-    </BrowserRouter>
-    </Provider>,
-    document.getElementById('root')
-
-
-);
-*/
-
 ReactDOM.render(
   <React.StrictMode>
     <App />
